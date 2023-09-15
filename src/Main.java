@@ -69,6 +69,8 @@ public class Main {
                 especie.setQuackBehavior(new Quack());
             } else if (option == 2) {
                 especie.setQuackBehavior(new MuteQuack());
+            }else if (option==3){
+                especie.setQuackBehavior(new SqueakQuack());
             }
             System.out.println("Cambio realizado!");
             scanner.nextLine();
